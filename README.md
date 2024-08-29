@@ -19,5 +19,7 @@ As seen, Bert model try to label to one of the  11 categories.
   <li>Predictiom</li>
 </ul>  
 
- 
+Not: Burada elde ettiğimiz skorlar her class için iyi sonuc vermemiş olabilir. 11 classın 11 inde skorları iyi olmayabilir. Bu gibi durumlarda eğer kabul edebilir bir varyans ise devam edilebilir ama 
+train ve test datasında ki farkalrı fazla ise varyans büyük ise biz o classı çıkarıp modeli tekrar eğitip müşteriye sunabiliriz. Örneğin model spor haberlerinin bulmada iyi değilse bu classı çıkarabiliriz.
 
+(Here is going to edit..)
